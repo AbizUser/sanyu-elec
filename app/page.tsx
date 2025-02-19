@@ -12,7 +12,7 @@ export default function Page() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Zap className="w-8 h-8 text-yellow-500" />
-            <span className="text-xl font-bold">電気工事株式会社</span>
+            <span className="text-xl font-bold">三友電業社</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <a href="#services" className="hover:text-primary">
@@ -44,7 +44,7 @@ export default function Page() {
             ご提供いたします
           </h1>
           <p className="text-lg text-muted-foreground mb-8">
-            創業30年の実績と信頼。あらゆる電気設備のニーズにお応えします。
+            創業55年の実績と信頼。あらゆる電気設備のニーズにお応えします。
           </p>
           <Button size="lg" className="bg-yellow-500 hover:bg-yellow-600">
             お問い合わせはこちら
@@ -107,7 +107,7 @@ export default function Page() {
             {[1, 2, 3].map((i) => (
               <div key={i} className="rounded-lg overflow-hidden shadow-lg">
                 <img
-                  src={`/placeholder.svg?height=200&width=400`}
+                  src={`/placeholder.png?height=200&width=400`}
                   alt={`施工事例 ${i}`}
                   className="w-full h-48 object-cover"
                 />
@@ -138,7 +138,7 @@ export default function Page() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Zap className="w-6 h-6 text-yellow-500" />
-                <span className="text-lg font-bold">電気株式会社</span>
+                <span className="text-lg font-bold">三友電業社</span>
               </div>
               <p className="text-gray-400">
                 〒XXX-XXXX
@@ -166,7 +166,7 @@ export default function Page() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 電気株式会社 All Rights Reserved.</p>
+            <p>&copy; 2025 三友電業社 All Rights Reserved.</p>
           </div>
         </div>
       </footer>
